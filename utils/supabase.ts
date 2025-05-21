@@ -1,7 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import Constants from 'expo-constants';
 
-// Get the values from app.config.ts extra
 const supabaseUrl = Constants.expoConfig?.extra?.SUPABASE_URL;
 const supabaseAnonKey = Constants.expoConfig?.extra?.SUPABASE_ANON_KEY;
 
